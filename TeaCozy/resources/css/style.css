@@ -1,0 +1,165 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margn: 0 auto;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  top: 0;
+}
+
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+}
+
+header nav {
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+span a {
+  color: seashell;
+}
+
+/* Container */
+
+.container {
+  margin: 0 auto;
+}
+
+/* Mission */
+
+.mission {
+  background-image: url(../images/background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title {
+margin-top: 60px;
+  background-color: black;
+  width: 1200px;
+}
+
+.title h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title h4 {
+  margin-bottom: 10px;
+}
+
+/* Featured */
+
+.featured {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tea {
+  display: inline-block;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url(../images/location.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.areas {
+  margin-bottom: 15px;
+}
+
+.downtown {
+  display: inline-block;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  height: 280px;
+  margin-right: 40px;
+}
+
+.bayside {
+  display: inline-block;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  height: 280px;
+  margin-right: 40px;
+}
+
+.oakdale {
+  display: inline-block;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  height: 280px;
+}
+
+.locations span {
+  display: block;
+  padding-bottom: 45px;
+}
+
+/* Contact */
+.contact {
+  height: 200px;
+  padding-top: 0px;
+  margin-top: 0;
+}
+
+/* Footer */
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
